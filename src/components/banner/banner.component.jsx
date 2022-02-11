@@ -1,35 +1,39 @@
 // React
-import React from 'react';
+import React from "react";
 
 // Animation On Scroll
-import 'aos/dist/aos.css';
+import "aos/dist/aos.css";
 
 // Styles
-import './banner.styles.scss';
+import "./banner.styles.scss";
 
 // Viewport height Mobile Fix
-import Div100vh from 'react-div-100vh';
+import Div100vh from "react-div-100vh";
+
+// Fontawesome
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 // Responsive Images Import
-import puntaSir320 from '../../assets/puntaSir320.jpg';
-import puntaSir640 from '../../assets/puntaSir640.jpg';
-import puntaSir960 from '../../assets/puntaSir960.jpg';
-import puntaSir1280 from '../../assets/puntaSir1280.jpg';
-import puntaSir1600 from '../../assets/puntaSir1600.jpg';
-import puntaSir1920 from '../../assets/puntaSir1920.jpg';
-import puntaSir2240 from '../../assets/puntaSir2240.jpg';
-import puntaSir2560 from '../../assets/puntaSir2560.jpg';
-import puntaSir2880 from '../../assets/puntaSir2880.jpg';
-import puntaSir3200 from '../../assets/puntaSir3200.jpg';
-import puntaSir3520 from '../../assets/puntaSir3520.jpg';
-import puntaSir3840 from '../../assets/puntaSir3840.jpg';
+import puntaSir320 from "../../assets/puntaSir320.jpg";
+import puntaSir640 from "../../assets/puntaSir640.jpg";
+import puntaSir960 from "../../assets/puntaSir960.jpg";
+import puntaSir1280 from "../../assets/puntaSir1280.jpg";
+import puntaSir1600 from "../../assets/puntaSir1600.jpg";
+import puntaSir1920 from "../../assets/puntaSir1920.jpg";
+import puntaSir2240 from "../../assets/puntaSir2240.jpg";
+import puntaSir2560 from "../../assets/puntaSir2560.jpg";
+import puntaSir2880 from "../../assets/puntaSir2880.jpg";
+import puntaSir3200 from "../../assets/puntaSir3200.jpg";
+import puntaSir3520 from "../../assets/puntaSir3520.jpg";
+import puntaSir3840 from "../../assets/puntaSir3840.jpg";
 
-const Banner = ({bannerLoaded, homeRef, projectsScroll}) => (
-  <section ref={homeRef} className='banner'>
+const Banner = ({ bannerLoaded, homeRef, projectsScroll }) => (
+  <section ref={homeRef} className="banner">
     <img
       loading="eager"
-      data-aos='image-zoom-custom' 
-      data-aos-delay="1600" 
+      data-aos="image-zoom-custom"
+      data-aos-delay="1600"
       data-aos-duration="20000"
       onLoad={bannerLoaded}
       className="background paused"
@@ -50,13 +54,27 @@ const Banner = ({bannerLoaded, homeRef, projectsScroll}) => (
       src={puntaSir3840}
       alt="Punta Sir"
     />
-    <Div100vh> {/* Ensures that Div is 100% of viewport height On Mobile Devices*/}
-    <div className="color-overlay">
-      <div className="heading">
-        <h1 className="name"><span>Quentin Neal</span></h1>
-        <div className="description"><span>Frontend Engineer</span></div>
+    <Div100vh>
+      {" "}
+      {/* Ensures that Div is 100% of viewport height On Mobile Devices*/}
+      <div className="color-overlay">
+        <div className="heading">
+          <h1 className="name">
+            <span>Quentin Neal</span>
+          </h1>
+          <div className="description">
+            <span>Frontend Engineer</span>
+          </div>
+          <div className="icons">
+            <a className="github-icon icon" href="https://github.com/quentin8204" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon className="fa-fw" icon={faGithub} />
+            </a>
+            <a className="linkedin-icon icon" href="https://www.linkedin.com/in/quentinneal/" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon className="fa-fw" icon={faLinkedin} />
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
     </Div100vh>
   </section>
 );
