@@ -18,18 +18,18 @@ const Header = ({ logoLoaded, changeColorScheme, colorScheme, homeScroll, aboutS
     </a>
     <div className="menu">
       <nav className="navigation">
-        <a className="home-link" onClick={homeScroll} href="#home"><FontAwesomeIcon icon={faHome} /><span>Home</span></a>
-        <a className="about-link" onClick={aboutScroll} href="#about"><FontAwesomeIcon icon={faAddressCard}/><span>About</span></a>
-        <a className="projects-link" onClick={projectsScroll} href="#projects"><FontAwesomeIcon icon={faCode}/><span>Projects</span></a>
-        <a className="contact-link" onClick={contactScroll} href="#contact"><FontAwesomeIcon icon={faEnvelope}/><span>Contact</span></a>
+        <a className="home-link" onClick={homeScroll} href="#home" title="Home"><FontAwesomeIcon icon={faHome} /><span>Home</span></a>
+        <a className="about-link" onClick={aboutScroll} href="#about" title="About Me"><FontAwesomeIcon icon={faAddressCard}/><span>About</span></a>
+        <a className="projects-link" onClick={projectsScroll} href="#projects" title="Portfolio Projects"><FontAwesomeIcon icon={faCode}/><span>Projects</span></a>
+        <a className="contact-link" onClick={contactScroll} href="#contact" title="Contact"><FontAwesomeIcon icon={faEnvelope}/><span>Contact</span></a>
       </nav>
       <div className="tools">
       {menuBottom
-      ? <button className="menu-toggle" onClick={changeMenuDirection}><FontAwesomeIcon icon={faSortAmountUp}/></button>
-      : <button className="menu-toggle" onClick={changeMenuDirection}><FontAwesomeIcon icon={faSortAmountDownAlt}/></button>}
+      ? <button className="menu-toggle" onClick={changeMenuDirection} title="Move Menu To Top"><FontAwesomeIcon icon={faSortAmountUp}/></button>
+      : <button className="menu-toggle" onClick={changeMenuDirection} title="Move Menu To Bottom"><FontAwesomeIcon icon={faSortAmountDownAlt}/></button>}
       {colorScheme === 'dark' 
-      ? <button className="light-toggle color-toggle" onClick={changeColorScheme}><FontAwesomeIcon icon={faSun}/></button> 
-      : <button className="dark-toggle color-toggle" onClick={changeColorScheme}><FontAwesomeIcon icon={faMoon}/></button>}
+      ? <button className="light-toggle color-toggle" onClick={changeColorScheme} title="Light Mode"><FontAwesomeIcon icon={faSun}/></button> 
+      : <button className="dark-toggle color-toggle" onClick={changeColorScheme} title="Dark Mode"><FontAwesomeIcon icon={faMoon}/></button>}
       </div>
     </div>
     <a className="logo hide" href="https://www.linkedin.com/in/quentinneal/" target="_blank" rel="noopener noreferrer">

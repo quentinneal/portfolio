@@ -213,8 +213,9 @@
         }
       }
 
-      .demo-code, .read-more {
+      .project-actions {
         display: flex;
+        justify-content: space-between;
         flex-wrap: wrap;
 
         margin: 1.7rem 0 0 0;
@@ -234,77 +235,64 @@
         @media screen and (min-width: 3361px) {margin: 5.6rem 0 0 0;}
         @media screen and (min-width: 3601px) {margin: 6rem 0 0 0;}
 
-        .box {
-          filter: drop-shadow(-1px 1px 1px rgba(0, 0, 0, .6));
-          position: relative;
-          z-index: 1;
-          overflow: hidden;
+        .project-icons {
+          display: flex;
+          align-items: center;
 
-          font-size: 1.8rem;
-          padding: 1.7rem;
-          border: 2px solid rgba(var(--projects-color-2), 1);
-          margin: 1rem 1rem 0 0;
+          .icon-link {
+            margin-right: 2.4rem;
 
-          @media screen and (min-width: 241px) {font-size: 1.6rem; padding: 1rem; border: 2px solid rgba(var(--projects-color-2), 1); margin: 0.6rem 0.6rem 0 0;}
-          @media screen and (min-width: 481px) {font-size: 1.6rem; padding: 1.1rem; border: 2px solid rgba(var(--projects-color-2), 1); margin: 0.6rem 0.6rem 0 0;}
-          @media screen and (min-width: 721px) {font-size: 1.7rem; padding: 1.2rem; border: 2px solid rgba(var(--projects-color-2), 1); margin: 0.7rem 0.7rem 0 0;}
-          @media screen and (min-width: 961px) {font-size: 1.7rem; padding: 1.3rem; border: 2px solid rgba(var(--projects-color-2), 1); margin: 0.8rem 0.8rem 0 0;}
-          @media screen and (min-width: 1201px) {font-size: 1.7rem; padding: 1.5rem; border: 2px solid rgba(var(--projects-color-2), 1); margin: 0.9rem 0.9rem 0 0;}
-          @media screen and (min-width: 1441px) {font-size: 1.8rem; padding: 1.6rem; border: 2px solid rgba(var(--projects-color-2), 1); margin: 0.9rem 0.9rem 0 0;}
-          @media screen and (min-width: 1681px) {font-size: 1.8rem; padding: 1.7rem; border: 2px solid rgba(var(--projects-color-2), 1); margin: 1rem 1rem 0 0;}
-          @media screen and (min-width: 1921px) {font-size: 2.0rem; padding: 1.9rem; border: 2px solid rgba(var(--projects-color-2), 1); margin: 1.1rem 1.1rem 0 0;}
-          @media screen and (min-width: 2161px) {font-size: 2.3rem; padding: 2.1rem; border: 3px solid rgba(var(--projects-color-2), 1); margin: 1.3rem 1.3rem 0 0;}
-          @media screen and (min-width: 2401px) {font-size: 2.5rem; padding: 2.3rem; border: 3px solid rgba(var(--projects-color-2), 1); margin: 1.4rem 1.4rem 0 0;}
-          @media screen and (min-width: 2641px) {font-size: 2.7rem; padding: 2.6rem; border: 3px solid rgba(var(--projects-color-2), 1); margin: 1.5rem 1.5rem 0 0;}
-          @media screen and (min-width: 2881px) {font-size: 2.9rem; padding: 2.8rem; border: 3px solid rgba(var(--projects-color-2), 1); margin: 1.6rem 1.6rem 0 0;}
-          @media screen and (min-width: 3121px) {font-size: 3.2rem; padding: 3.0rem; border: 4px solid rgba(var(--projects-color-2), 1); margin: 1.8rem 1.8rem 0 0;}
-          @media screen and (min-width: 3361px) {font-size: 3.4rem; padding: 3.2rem; border: 4px solid rgba(var(--projects-color-2), 1); margin: 1.9rem 1.9rem 0 0;}
-          @media screen and (min-width: 3601px) {font-size: 3.6rem; padding: 3.4rem; border: 4px solid rgba(var(--projects-color-2), 1); margin: 2rem 2rem 0 0;}
-
-          span {
-            color: rgba(var(--projects-color-2), 1);
-            font-weight: 550;
-            transition: color 0.2s ease;
+              @media screen and (min-width: 481px) {margin-right: 2.4rem;}
+              @media screen and (min-width: 721px) {margin-right: 2.4rem;}
+              @media screen and (min-width: 961px) {margin-right: 2.4rem;}
+              @media screen and (min-width: 1201px) {margin-right: 2.4rem;}
+              @media screen and (min-width: 1441px) {margin-right: 2.4rem;}
+              @media screen and (min-width: 1681px) {margin-right: 2.4rem}
+              @media screen and (min-width: 1921px) {margin-right: 2.7rem;}
+              @media screen and (min-width: 2161px) {margin-right: 3.0rem;}
+              @media screen and (min-width: 2401px) {margin-right: 3.3rem;}
+              @media screen and (min-width: 2641px) {margin-right: 3.6rem;}
+              @media screen and (min-width: 2881px) {margin-right: 3.9rem;}
+              @media screen and (min-width: 3121px) {margin-right: 4.2rem;}
+              @media screen and (min-width: 3361px) {margin-right: 4.5rem;}
+              @media screen and (min-width: 3601px) {margin-right: 4.8rem;}
           }
 
-          &::before {
-            position: absolute;
-            content: '';
-            top: 0;
-            left: 0;
-            right:0;
-            bottom: 0;
-            background-color: rgba(var(--projects-color-2), 1);
-            z-index: -1;
-            transform: translateX(-100%);
-            transition: transform 0.2s ease;
-          }
+          .icon {
+            display: block;
+            filter: drop-shadow(-1px 1px 1px rgba(0, 0, 0, .3));
+            border: 1px solid rgba(var(--banner-color-2), 1);
+            border-radius: 50%;
+            padding: 1.2rem;
+            color: rgba(var(--banner-color-2), 1);
+            font-size: 2.4rem;
+            transition: all .2s ease;
+  
+          @media screen and (min-width: 481px) {border: 1px solid rgba(var(--banner-color-2), 1); padding: 1.2rem; font-size: 2.5rem;}
+          @media screen and (min-width: 721px) {border: 1px solid rgba(var(--banner-color-2), 1); padding: 1.2rem; font-size: 2.6rem;}
+          @media screen and (min-width: 961px) {border: 1px solid rgba(var(--banner-color-2), 1); padding: 1.2rem; font-size: 2.7rem;}
+          @media screen and (min-width: 1201px) {border: 2px solid rgba(var(--banner-color-2), 1); padding: 1.2rem; font-size: 2.8rem;}
+          @media screen and (min-width: 1441px) {border: 2px solid rgba(var(--banner-color-2), 1); padding: 1.2rem; font-size: 2.9rem;}
+          @media screen and (min-width: 1681px) {border: 3px solid rgba(var(--banner-color-2), 1); padding: 1.2rem;  font-size: 3rem;}
+          @media screen and (min-width: 1921px) {border: 3px solid rgba(var(--banner-color-2), 1); padding: 1.35rem; font-size: 3.375rem;}
+          @media screen and (min-width: 2161px) {border: 3px solid rgba(var(--banner-color-2), 1); padding: 1.5rem;  font-size: 3.75rem;}
+          @media screen and (min-width: 2401px) {border: 4px solid rgba(var(--banner-color-2), 1); padding: 1.65rem;  font-size: 4.125rem;}
+          @media screen and (min-width: 2641px) {border: 4px solid rgba(var(--banner-color-2), 1); padding: 1.8rem; font-size: 4.5rem;}
+          @media screen and (min-width: 2881px) {border: 4px solid rgba(var(--banner-color-2), 1); padding: 1.95rem; font-size: 4.875rem;}
+          @media screen and (min-width: 3121px) {border: 5px solid rgba(var(--banner-color-2), 1); padding: 2.1rem; font-size: 5.25rem;}
+          @media screen and (min-width: 3361px) {border: 5px solid rgba(var(--banner-color-2), 1); padding: 2.25rem;  font-size: 5.625rem;}
+          @media screen and (min-width: 3601px) {border: 6px solid rgba(var(--banner-color-2), 1); padding: 2.4rem;  font-size: 6rem;}
 
-          &:hover {
-            position: relative;
-            cursor: pointer;
-
-            span {
-              color: rgba(var(--projects-color-1), 1);
+          
+  
+            &:hover {
+              cursor: pointer;
+              background-color:rgba(var(--banner-color-2), 1);
+              color: rgba(var(--banner-color-1), 1);
             }
-            
-            &::before {
-              transform: translateX(0%);
-            }
-          }
-
-          &::selection {
-            background-color: rgba(var(--projects-color-2), 1);
-            color:  rgba(var(--projects-color-1), 1);
-          }
-
-          &:last-child {
-            margin-right: 0;
           }
         }
       }
-      
-      .read-more {justify-content: flex-end;}   
     }
   }
 }

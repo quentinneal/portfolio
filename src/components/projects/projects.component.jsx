@@ -7,6 +7,11 @@ import 'aos/dist/aos.css';
 // Styles
 import './projects.styles.scss';
 
+// Fontawesome
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDesktop, faBookOpen, faBook } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
 // Projects Array
 import {projectsList} from './projects.export';
 
@@ -48,30 +53,35 @@ const Projects = ({projectsRef, menuBottom}) => {
             ))}
             </div>
             <div className='summary' dangerouslySetInnerHTML={{__html: summary}} />
-            <div className='read-more' >
-              <button className="box" tabIndex="0" rel="noopener noreferrer"
-                  onClick={() => {
-                    // Copy Projects Array And Toggle ReadMore Boolean, Replace State With Modified Array
-                    let projectsCopy = [...projects];
-                    let projectCopy = { ...projectsCopy[i] };
-                    projectCopy.readMore = !readMore;
-                    projectsCopy[i] = projectCopy;
-                    setProjects(projectsCopy);
-                  }}>
-                  <span>{`${readMore ? 'Collapse' : 'Read More'}`}</span>
-              </button>
+            <div className='project-actions' >
+              <div className="project-icons">
+                <a className="icon icon-link" href={sources.github} target="_blank" rel="noopener noreferrer" title="GitHub">
+                  <FontAwesomeIcon className="fa-fw" icon={faGithub} />
+                </a>
+                <a className="icon icon-link" href={sources.demo} target="_blank" rel="noopener noreferrer" title="Live Demo">
+                  <FontAwesomeIcon className="fa-fw" icon={faDesktop} />
+                </a>
+              </div>
+              <div className="project-icons">
+                <button className="icon icon-button" tabIndex="0" rel="noopener noreferrer" title={`${readMore ? "Read Less" : "Read More"}`}
+                    onClick={() => {
+                      // Copy Projects Array And Toggle ReadMore Boolean, Replace State With Modified Array
+                      let projectsCopy = [...projects];
+                      let projectCopy = { ...projectsCopy[i] };
+                      projectCopy.readMore = !readMore;
+                      projectsCopy[i] = projectCopy;
+                      setProjects(projectsCopy);
+                    }}>
+                      {readMore ? (
+                        <FontAwesomeIcon className="fa-fw" icon={faBook} />
+                      ) : (
+                        <FontAwesomeIcon className="fa-fw" icon={faBookOpen} />
+                      )}
+                </button>
+              </div>
             </div>
             <div className={`rest ${readMore ? 'open' : 'close'}`}>
               <div className='full' dangerouslySetInnerHTML={{__html: full}} />
-              <div className='demo-code'>
-                <a className="box" href={sources.demo} rel="noopener noreferrer" target="_blank"><span>Demo</span></a>
-                {sources.original ? (
-                  <a className="box" href={sources.original} rel="noopener noreferrer" target="_blank"><span>Original</span></a>
-                ) : (
-                  null
-                )}
-                <a className="box" href={sources.github} rel="noopener noreferrer" target="_blank"><span>GitHub</span></a>
-              </div>
             </div>
           </div>
       </div>

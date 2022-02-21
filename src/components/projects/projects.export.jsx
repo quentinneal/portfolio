@@ -22,13 +22,13 @@ export const projectsList = [{
     image12: imfinity3840
   },
   title: 'Imfinity',
-  technologies: ['4K', 'HTML5', 'CSS / SCSS', 'Javascript', 'React', 'NASA Image and Video Library API', 'Intersection Observer', 'Npm', 'GitHub', 'Git'],
-  summary: `<p>This is my first custom project that I've decided to add to my portfolio.</p>`,
-  full: `<p>This project is an infinite scrolling website with search features. The images are fetched from the NASA Image and Video Library API. The infinite scrolling mechanism
-  uses the Intersection Observer API.</p>
-  <p>I've realized that other developers understanding your code is just as important as writing it, so I decided to put extra effort into keeping the code organized and easy to understand.</p>
-  <p>I've learned some interesting data manipulation techniques that will be useful in my future career.</p>
-  <p>NOTE: API is rate limited.</p>`,
+  technologies: ['4K', 'HTML5', 'CSS / SCSS', 'Javascript', 'React', 'NASA Image and Video REST API', 'Intersection Observer API', 'Npm', 'GitHub', 'Git'],
+  summary: `<p>NOTE: API is rate limited.</p>
+  <p>This project is an infinite scrolling website with search features. The images are fetched from the NASA 
+  Image and Video Library REST API. The infinite scrolling mechanism uses the Intersection Observer API.</p>`,
+  full: `<p>I've realized that other developers understanding your code is just as important as writing it, so I 
+  decided to put extra effort into keeping the code in this project organized and easy to understand.</p>
+  <p>I've learned some interesting data manipulation techniques that will be useful in my career.</p>`,
   sources: {
     demo: 'https://imfinity-live-quentin.herokuapp.com/',
     github: 'https://github.com/quentin8204/imfinity'
@@ -56,10 +56,10 @@ export const projectsList = [{
   },
   title: 'Portfolio',
   technologies: ['4K', 'HTML5', 'CSS / SCSS', 'Javascript', 'React', 'Formspree', 'Font Awesome', 'Node', 'Npm', 'GitHub', 'Git'],
-  summary: `<p>I've created this website to show my projects, my creativity and my attempts to push boundaries with interfaces.</p>`,
-  full: `<p>The programming features of this single page website include smooth scrolling, a preloader spinner, keyboard accessibility, 
-  local and session storage, dark mode, and a repeated projects section with a 'read more' button.</p>
-  <p>Other features include a flexible fixed navigation menu on smaller devices to improve the user experience, image optimization and a contact form made with Formspree.</p>`,
+  summary: `<p>This project is my personal website, designed for branding purposes and to show my projects.</p>`,
+  full: `<p>The features of this single page website include smooth scrolling, a preloading spinner, keyboard 
+  accessibility, local & session storage, dark mode, a read more feature, mobile fixed navigation, image 
+  optimization and a Formspree contact form.</p>`,
 
   sources: {
     demo: 'https://portfolio-live-quentin.herokuapp.com/',
@@ -88,11 +88,10 @@ export const projectsList = [{
     },
     title: 'Crwn-Clothing',
     technologies: ['1080p', 'HTML5', 'CSS3 / SCSS', 'Javascript', 'React', 'React Router', 'Stripe', 'Redux technologies', 'Firebase', 'Reselect', 'Compression', 'Lodash.memoise', 'Node', 'Npm', 'GitHub', 'Git'],
-    summary: `<p>I created this modified project based on a course called Complete React Developer by Andrei Neagoie and Yihua Zhang.</p>`,
-    full: `<p>I worked on this project in order to gain general knowledge of the current web development environment and to brush up on my coding skills. 
-    This website has functionality such as sign in/out, sign up, cart functionality, checkout with stripe and more.</p>
-    <p>I decide to push this project further by overhauling the site's aesthetics. 
-    I added a fixed menu for easy menu access, used a dark color scheme that fits with the image assets, added animations and made the site responsive.</p>`,
+    summary: `<p>This project is a modified e-commerce website based on a course called Complete React Developer by Andrei Neagoie and Yihua Zhang.</p>
+    <p>The website's aesthetics was redesigned by me with CSS and JavaScript as I worked on this project in order to brush up on my coding skills.</p>`,
+    full: `<p>This project contains features such as sign in/out, sign up, routing, CRUD operations, cart functionality, checkout with stripe and more.</p>
+    <p>The aesthetic improvements include a website redesign, fixed menu, animations and responsive design.</p>`,
     sources: {
       demo: 'https://crwn-live-quentin.herokuapp.com/',
       github: 'https://github.com/quentin8204/crwn-clothing',

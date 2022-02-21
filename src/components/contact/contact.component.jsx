@@ -12,7 +12,6 @@ import 'aos/dist/aos.css';
 
 // Fontawesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub  } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = ({contactRef, menuBottom}) => {
@@ -55,22 +54,15 @@ const Contact = ({contactRef, menuBottom}) => {
         </div>
       </form>
       <div className="contact-details" data-aos="fade-left">
-        <p className="contact-description">Thank you for visiting my website! Feel free to contact me using the contact form or linkedin.</p>
-        <ul className="contact-links">
-          <li className="contact-link">
-            <a href="https://www.linkedin.com/in/quentinneal/" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon className="fa-fw" icon={faLinkedin} /><span>LinkedIn</span>
-            </a>
-          </li>
-          <li className="contact-link">
-            <a href="https://github.com/quentin8204" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon className="fa-fw" icon={faGithub} /><span>GitHub</span>
-            </a>
-          </li>
-          <li className="contact-link">
-            <FontAwesomeIcon className="fa-fw" icon={faMapMarkerAlt} /><span>Seattle, Washington</span>
-          </li>
-        </ul>
+        <p className="contact-description">Thank you for visiting my website! Feel free to contact me using the contact form or LinkedIn.</p>
+        <div className="contact-icons">
+          <a className="github-icon icon" href="https://github.com/quentin8204" target="_blank" rel="noopener noreferrer" title="GitHub">
+            <FontAwesomeIcon className="fa-fw" icon={faGithub} />
+          </a>
+          <a className="linkedin-icon icon" href="https://www.linkedin.com/in/quentinneal/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+            <FontAwesomeIcon className="fa-fw" icon={faLinkedin} />
+          </a>
+        </div>
       </div>
     </section>
   );

@@ -55,7 +55,6 @@ const Banner = ({ bannerLoaded, homeRef, projectsScroll }) => (
       alt="Punta Sir"
     />
     <Div100vh>
-      {" "}
       {/* Ensures that Div is 100% of viewport height On Mobile Devices*/}
       <div className="color-overlay">
         <div className="heading">
@@ -66,10 +65,10 @@ const Banner = ({ bannerLoaded, homeRef, projectsScroll }) => (
             <span>Frontend Engineer</span>
           </div>
           <div className="icons">
-            <a className="github-icon icon" href="https://github.com/quentin8204" target="_blank" rel="noopener noreferrer">
+            <a className="github-icon icon" href="https://github.com/quentin8204" target="_blank" rel="noopener noreferrer" title="GitHub">
               <FontAwesomeIcon className="fa-fw" icon={faGithub} />
             </a>
-            <a className="linkedin-icon icon" href="https://www.linkedin.com/in/quentinneal/" target="_blank" rel="noopener noreferrer">
+            <a className="linkedin-icon icon" href="https://www.linkedin.com/in/quentinneal/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
               <FontAwesomeIcon className="fa-fw" icon={faLinkedin} />
             </a>
           </div>
