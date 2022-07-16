@@ -1,11 +1,42 @@
 /*
 Use This File To Import Images From image.export.jsx & Create New Project Sections
 */
+import { northleaflodge320, northleaflodge640, northleaflodge960, northleaflodge1280, northleaflodge1600, northleaflodge1920, northleaflodge2240, northleaflodge2560, northleaflodge2880, northleaflodge3200, northleaflodge3520, northleaflodge3840} from './image.export';
 import { imfinity320, imfinity640, imfinity960, imfinity1280, imfinity1600, imfinity1920, imfinity2240, imfinity2560, imfinity2880, imfinity3200, imfinity3520, imfinity3840} from './image.export';
 import { portfolio320, portfolio640, portfolio960, portfolio1280, portfolio1600, portfolio1920, portfolio2240, portfolio2560, portfolio2880, portfolio3200, portfolio3520, portfolio3840} from './image.export';
 import { crwnClothing320, crwnClothing640, crwnClothing960, crwnClothing1280, crwnClothing1600, crwnClothing1920, crwnClothing2240, crwnClothing2560, crwnClothing2880, crwnClothing3200, crwnClothing3520, crwnClothing3840} from './image.export';
 
 export const projectsList = [{
+  id: 'Northleaf Lodge',
+  images: {
+    image1: northleaflodge320,
+    image2: northleaflodge640,
+    image3: northleaflodge960,
+    image4: northleaflodge1280,
+    image5: northleaflodge1600,
+    image6: northleaflodge1920,
+    image7: northleaflodge2240,
+    image8: northleaflodge2560,
+    image9: northleaflodge2880,
+    image10: northleaflodge3200,
+    image11: northleaflodge3520,
+    image12: northleaflodge3840
+  },
+  title: 'Northleaf Lodge',
+  technologies: ['1080p', 'HTML5', 'CSS / SCSS', 'Javascript', 'React', 'React Router', 'Redux Toolkit', 'Npm', 'GitHub', 'Git'],
+  summary: `<p>This ongoing project will be a full stack hotel booking application.</p>`,
+  full: `<p>This project contains a slider with an autoplay feature (until an arrow is clicked), a room filters section and a checkout section.</p>
+  <p>Future plans are to store data in a backend and expand this project with more complex features.</p>`,
+  sources: {
+    demo: 'https://northleaf-lodge-live-quentin.herokuapp.com/',
+    github: 'https://github.com/quentin8204/northleaf-lodge'
+  },
+  color: 'default',
+  alt: 'Northleaf Lodge',
+  direction: 'slide-right-custom',
+  readMore: false
+  },
+  {
   id: 'Imfinity',
   images: {
     image1: imfinity320,
@@ -35,7 +66,7 @@ export const projectsList = [{
   },
   color: 'default',
   alt: 'Imfinity',
-  direction: 'slide-right-custom',
+  direction: 'slide-left-custom',
   readMore: false
   },
   {
@@ -67,7 +98,7 @@ export const projectsList = [{
   },
   color: 'default',
   alt: 'Portfolio',
-  direction: 'slide-left-custom',
+  direction: 'slide-right-custom',
   readMore: false
   },
   {
@@ -99,6 +130,6 @@ export const projectsList = [{
     },
     color: 'default',
     alt: 'Crown Clothing',
-    direction: 'slide-right-custom',
+    direction: 'slide-left-custom',
     readMore: false
   }];

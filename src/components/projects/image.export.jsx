@@ -3,6 +3,19 @@ Use This File To Export Images For Each Portfolio Project
 Import The Images On The project.export.jsx File
 */
 
+export { default as northleaflodge320 } from '../../assets/northleaflodge320.jpg';
+export { default as northleaflodge640 } from '../../assets/northleaflodge640.jpg';
+export { default as northleaflodge960 } from '../../assets/northleaflodge960.jpg';
+export { default as northleaflodge1280 } from '../../assets/northleaflodge1280.jpg';
+export { default as northleaflodge1600 } from '../../assets/northleaflodge1600.jpg';
+export { default as northleaflodge1920 } from '../../assets/northleaflodge1920.jpg';
+export { default as northleaflodge2240 } from '../../assets/northleaflodge2240.jpg';
+export { default as northleaflodge2560 } from '../../assets/northleaflodge2560.jpg';
+export { default as northleaflodge2880 } from '../../assets/northleaflodge2880.jpg';
+export { default as northleaflodge3200 } from '../../assets/northleaflodge3200.jpg';
+export { default as northleaflodge3520 } from '../../assets/northleaflodge3520.jpg';
+export { default as northleaflodge3840 } from '../../assets/northleaflodge3840.jpg';
+
 export { default as imfinity320 } from '../../assets/imfinity320.jpg';
 export { default as imfinity640 } from '../../assets/imfinity640.jpg';
 export { default as imfinity960 } from '../../assets/imfinity960.jpg';
