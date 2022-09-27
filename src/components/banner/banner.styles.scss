@@ -10,19 +10,23 @@
 
 @keyframes flyFromLeft {
   0% {
-    transform: translateX(-100vw);
+    transform: translateX(-25vw);
+    opacity: 0;
   }
   100% {
     transform: translateX(0);
+    opacity: 1;
   }
 }
 
 @keyframes flyFromRight {
   0% {
-    transform: translateX(100vw);
+    transform: translateX(25vw);
+    opacity: 0;
   }
   100% {
     transform: translateX(0);
+    opacity: 1;
   }
 }
 
@@ -145,7 +149,7 @@
         }
 
         .icon {
-          display: block;
+          display: none;
           filter: drop-shadow(-1px 1px 1px rgba(0, 0, 0, .3));
           border: 1px solid rgba(var(--banner-color-2), 1);
           border-radius: 50%;
@@ -154,6 +158,8 @@
           color: rgba(var(--banner-color-2), 1);
           font-size: 2.4rem;
           transition: all .2s ease;
+
+        @media screen and (min-height: 481px) {display: block;}
 
         @media screen and (min-width: 481px) {border: 1px solid rgba(var(--banner-color-2), 1); padding: 1.2rem; margin: 1.2rem; font-size: 2.5rem;}
         @media screen and (min-width: 721px) {border: 1px solid rgba(var(--banner-color-2), 1); padding: 1.2rem; margin: 1.2rem; font-size: 2.6rem;}

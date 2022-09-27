@@ -24,14 +24,24 @@ const About = ({aboutRef, menuBottom}) => (
         </div>
       </a>
       <div className="bio-description">
-      <p>I'm a self-taught web developer that specializes in building frontend web applications. My primary fundamental experience is 
-      in React, JavaScript, CSS, HTML and design principles. I also have previous exposure in PHP, Python and  I've learned to build themes with WordPress.</p>
 
-      <p>A strong aspect of my personality is to solve problems. I like to push boundaries of what a website can be and discover unique ways to 
-      find solutions. I enjoy building and experimenting on interfaces, animations and web features.</p>
+      <p>I'm a self-taught Software Engineer that specializes in building frontend web applications. 
+      My fundamental experience is in JavaScript, HTML5, CSS3, Design Principles, and Data Structures 
+      & Algorithms. The primary technologies I use are React, Redux, React Router, Sass, Git and more. 
+      Before pursuing Software Engineering as a career, I explored WordPress, PHP, and Python.</p>
 
-      <p>My hospitality and retail experience along with traveling have given me plenty of opportunities to understand and work with different 
-      types of people. My current plans are to enter the industry as a Frontend Engineer/Full Stack Engineer.</p>
+      <p>A strong aspect of my personality is to solve problems. I like to push boundaries of what a website is 
+      supposed to be and discover unique ways to find solutions. I enjoy building and experimenting on 
+      interfaces, animations, and web features. My hospitality and retail experience along with traveling have also 
+      given me plenty of opportunities to understand and work with different types of people.</p>
+
+      <p>My current plans are to enter the industry as a Frontend Engineer/Software Engineer 
+      and eventually become a Software Engineer with Frontend and UI/UX specialization.</p>
+
+
+
+
+
 
       
       </div>

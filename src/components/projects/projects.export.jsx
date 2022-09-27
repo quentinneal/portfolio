@@ -22,7 +22,7 @@ export const projectsList = [{
     image11: northleaflodge3520,
     image12: northleaflodge3840
   },
-  title: 'Northleaf Lodge',
+  title: 'NorthLeaf Lodge',
   technologies: ['1080p', 'HTML5', 'CSS / SCSS', 'Javascript', 'React', 'React Router', 'Redux Toolkit', 'Npm', 'GitHub', 'Git'],
   summary: `<p>This ongoing project will be a full stack hotel booking application.</p>`,
   full: `<p>This project contains a slider with an autoplay feature (until an arrow is clicked), a room filters section and a checkout section.</p>
@@ -87,7 +87,7 @@ export const projectsList = [{
   },
   title: 'Portfolio',
   technologies: ['4K', 'HTML5', 'CSS / SCSS', 'Javascript', 'React', 'Formspree', 'Font Awesome', 'Node', 'Npm', 'GitHub', 'Git'],
-  summary: `<p>This project is my personal website, designed for branding purposes and to show my projects.</p>`,
+  summary: `<p>This project is my personal portfolio website. I built this website to show my ability to build a website on my own, push boundaries with my CSS skills and to show my projects. </p>`,
   full: `<p>The features of this single page website include smooth scrolling, a preloading spinner, keyboard 
   accessibility, local & session storage, dark mode, a read more feature, mobile fixed navigation, image 
   optimization and a Formspree contact form.</p>`,
