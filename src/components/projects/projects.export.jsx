@@ -29,7 +29,7 @@ export const projectsList = [{
   <p>Future plans are to store data in a backend and expand this project with more complex features.</p>`,
   sources: {
     demo: 'https://northleaf-lodge-live-quentin.herokuapp.com/',
-    github: 'https://github.com/quentin8204/northleaf-lodge'
+    github: 'https://github.com/quentinneal/northleaf-lodge'
   },
   color: 'default',
   alt: 'Northleaf Lodge',
@@ -62,7 +62,7 @@ export const projectsList = [{
   <p>I've learned some interesting data manipulation techniques that will be useful in my career.</p>`,
   sources: {
     demo: 'https://imfinity-live-quentin.herokuapp.com/',
-    github: 'https://github.com/quentin8204/imfinity'
+    github: 'https://github.com/quentinneal/imfinity'
   },
   color: 'default',
   alt: 'Imfinity',
@@ -94,7 +94,7 @@ export const projectsList = [{
 
   sources: {
     demo: 'https://portfolio-live-quentin.herokuapp.com/',
-    github: 'https://github.com/quentin8204/portfolio'
+    github: 'https://github.com/quentinneal/portfolio'
   },
   color: 'default',
   alt: 'Portfolio',
@@ -125,7 +125,7 @@ export const projectsList = [{
     <p>The aesthetic improvements include a website redesign, fixed menu, animations and responsive design.</p>`,
     sources: {
       demo: 'https://crwn-live-quentin.herokuapp.com/',
-      github: 'https://github.com/quentin8204/crwn-clothing',
+      github: 'https://github.com/quentinneal/crwn-clothing',
       original: 'https://www.udemy.com/course/complete-react-developer-zero-to-mastery/'
     },
     color: 'default',
