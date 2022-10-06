@@ -16,18 +16,18 @@ export { default as northleaflodge3200 } from '../../assets/northleaflodge3200.j
 export { default as northleaflodge3520 } from '../../assets/northleaflodge3520.jpg';
 export { default as northleaflodge3840 } from '../../assets/northleaflodge3840.jpg';
 
-export { default as imfinity320 } from '../../assets/imfinity320.jpg';
-export { default as imfinity640 } from '../../assets/imfinity640.jpg';
-export { default as imfinity960 } from '../../assets/imfinity960.jpg';
-export { default as imfinity1280 } from '../../assets/imfinity1280.jpg';
-export { default as imfinity1600 } from '../../assets/imfinity1600.jpg';
-export { default as imfinity1920 } from '../../assets/imfinity1920.jpg';
-export { default as imfinity2240 } from '../../assets/imfinity2240.jpg';
-export { default as imfinity2560 } from '../../assets/imfinity2560.jpg';
-export { default as imfinity2880 } from '../../assets/imfinity2880.jpg';
-export { default as imfinity3200 } from '../../assets/imfinity3200.jpg';
-export { default as imfinity3520 } from '../../assets/imfinity3520.jpg';
-export { default as imfinity3840 } from '../../assets/imfinity3840.jpg';
+export { default as infinity320 } from '../../assets/infinity320.jpg';
+export { default as infinity640 } from '../../assets/infinity640.jpg';
+export { default as infinity960 } from '../../assets/infinity960.jpg';
+export { default as infinity1280 } from '../../assets/infinity1280.jpg';
+export { default as infinity1600 } from '../../assets/infinity1600.jpg';
+export { default as infinity1920 } from '../../assets/infinity1920.jpg';
+export { default as infinity2240 } from '../../assets/infinity2240.jpg';
+export { default as infinity2560 } from '../../assets/infinity2560.jpg';
+export { default as infinity2880 } from '../../assets/infinity2880.jpg';
+export { default as infinity3200 } from '../../assets/infinity3200.jpg';
+export { default as infinity3520 } from '../../assets/infinity3520.jpg';
+export { default as infinity3840 } from '../../assets/infinity3840.jpg';
 
 export { default as portfolio320 } from '../../assets/portfolio320.jpg';
 export { default as portfolio640 } from '../../assets/portfolio640.jpg';

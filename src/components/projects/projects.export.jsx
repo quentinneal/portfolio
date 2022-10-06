@@ -2,7 +2,7 @@
 Use This File To Import Images From image.export.jsx & Create New Project Sections
 */
 import { northleaflodge320, northleaflodge640, northleaflodge960, northleaflodge1280, northleaflodge1600, northleaflodge1920, northleaflodge2240, northleaflodge2560, northleaflodge2880, northleaflodge3200, northleaflodge3520, northleaflodge3840} from './image.export';
-import { imfinity320, imfinity640, imfinity960, imfinity1280, imfinity1600, imfinity1920, imfinity2240, imfinity2560, imfinity2880, imfinity3200, imfinity3520, imfinity3840} from './image.export';
+import { infinity320, infinity640, infinity960, infinity1280, infinity1600, infinity1920, infinity2240, infinity2560, infinity2880, infinity3200, infinity3520, infinity3840} from './image.export';
 import { portfolio320, portfolio640, portfolio960, portfolio1280, portfolio1600, portfolio1920, portfolio2240, portfolio2560, portfolio2880, portfolio3200, portfolio3520, portfolio3840} from './image.export';
 import { crwnClothing320, crwnClothing640, crwnClothing960, crwnClothing1280, crwnClothing1600, crwnClothing1920, crwnClothing2240, crwnClothing2560, crwnClothing2880, crwnClothing3200, crwnClothing3520, crwnClothing3840} from './image.export';
 
@@ -37,22 +37,22 @@ export const projectsList = [{
   readMore: false
   },
   {
-  id: 'Imfinity',
+  id: 'Infinity',
   images: {
-    image1: imfinity320,
-    image2: imfinity640,
-    image3: imfinity960,
-    image4: imfinity1280,
-    image5: imfinity1600,
-    image6: imfinity1920,
-    image7: imfinity2240,
-    image8: imfinity2560,
-    image9: imfinity2880,
-    image10: imfinity3200,
-    image11: imfinity3520,
-    image12: imfinity3840
+    image1: infinity320,
+    image2: infinity640,
+    image3: infinity960,
+    image4: infinity1280,
+    image5: infinity1600,
+    image6: infinity1920,
+    image7: infinity2240,
+    image8: infinity2560,
+    image9: infinity2880,
+    image10: infinity3200,
+    image11: infinity3520,
+    image12: infinity3840
   },
-  title: 'Imfinity',
+  title: 'Infinity',
   technologies: ['4K', 'HTML5', 'CSS / SCSS', 'Javascript', 'React', 'NASA Image and Video REST API', 'Intersection Observer API', 'Npm', 'GitHub', 'Git'],
   summary: `<p>NOTE: API is rate limited.</p>
   <p>This project is an infinite scrolling website with search features. The images are fetched from the NASA 
@@ -61,11 +61,11 @@ export const projectsList = [{
   decided to put extra effort into keeping the code in this project organized and easy to understand.</p>
   <p>I've learned some interesting data manipulation techniques that will be useful in my career.</p>`,
   sources: {
-    demo: 'https://imfinity-live-quentin.herokuapp.com/',
-    github: 'https://github.com/quentinneal/imfinity'
+    demo: 'https://infinity-live-quentin.herokuapp.com/',
+    github: 'https://github.com/quentinneal/infinity'
   },
   color: 'default',
-  alt: 'Imfinity',
+  alt: 'Infinity',
   direction: 'slide-left-custom',
   readMore: false
   },
