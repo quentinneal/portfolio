@@ -25,25 +25,17 @@ const About = ({aboutRef, menuBottom}) => (
       </a>
       <div className="bio-description">
 
-      <p>I'm a self-taught Software Engineer that specializes in building frontend web applications. 
+      <p>I'm a Software Engineer that specializes in building frontend web applications. 
       My fundamental experience is in JavaScript, HTML5, CSS3, Design Principles, and Data Structures 
-      & Algorithms. The primary technologies I use are React, Redux, React Router, Sass, Git and more. 
+      & Algorithms. Other technologies I use are React, TypeScript, Sass, Git, GitHub and more. 
       Before pursuing Software Engineering as a career, I explored WordPress, PHP, and Python.</p>
 
       <p>A strong aspect of my personality is to solve problems. I like to push boundaries of what a website is 
-      supposed to be and discover unique ways to find solutions. I enjoy building and experimenting on 
-      interfaces, animations, and web features. My hospitality and retail experience along with traveling have also 
+      supposed to be and discover unique ways to find solutions.My hospitality and retail experience along with traveling have also 
       given me plenty of opportunities to understand and work with different types of people.</p>
 
-      <p>My current plans are to enter the industry as a Frontend Engineer/Software Engineer 
-      and eventually become a Software Engineer with Frontend and UI/UX specialization.</p>
+      <p>My plans are to enter the industry as a Frontend or Software Engineer.</p>
 
-
-
-
-
-
-      
       </div>
     </div>
     <div className="skills" data-aos="fade-left">
@@ -51,6 +43,7 @@ const About = ({aboutRef, menuBottom}) => (
         <li className="skill-item"><FontAwesomeIcon className="fa-fw" icon={faHtml5} /><span>HTML5</span></li>
         <li className="skill-item"><FontAwesomeIcon className="fa-fw" icon={faCss3Alt} /><span>CSS3</span></li>
         <li className="skill-item"><FontAwesomeIcon className="fa-fw" icon={faJs} /><span>Javascript</span></li>
+        <li className="skill-item"><FontAwesomeIcon className="fa-fw" icon={faConnectdevelop} /><span>TypeScript</span></li>
         <li className="skill-item"><FontAwesomeIcon className="fa-fw" icon={faPhp} /><span>PHP</span></li>
         <li className="skill-item"><FontAwesomeIcon className="fa-fw" icon={faWordpress} /><span>Wordpress</span></li>
         <li className="skill-item"><FontAwesomeIcon className="fa-fw" icon={faReact} /><span>React</span></li>

@@ -23,7 +23,7 @@ export const projectsList = [{
     image12: northleaflodge3840
   },
   title: 'NorthLeaf Lodge',
-  technologies: ['1080p', 'HTML5', 'CSS / SCSS', 'Javascript', 'React', 'React Router', 'Redux Toolkit', 'Npm', 'GitHub', 'Git'],
+  technologies: ['1080p', 'HTML5', 'CSS / SCSS', 'Javascript', 'TypeScript', 'React', 'React Router', 'Redux Toolkit', 'Npm', 'GitHub', 'Git'],
   summary: `<p>This ongoing project will be a full stack hotel booking application.</p>`,
   full: `<p>This project contains a slider with an autoplay feature (until an arrow is clicked), a room filters section and a checkout section.</p>
   <p>Future plans are to store data in a backend and expand this project with more complex features.</p>`,
