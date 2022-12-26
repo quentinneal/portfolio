@@ -23,10 +23,10 @@ export const projectsList = [{
     image12: northleaflodge3840
   },
   title: 'NorthLeaf Lodge',
-  technologies: ['1080p', 'HTML5', 'CSS / SCSS', 'Javascript', 'TypeScript', 'React', 'React Router', 'Redux Toolkit', 'Npm', 'GitHub', 'Git'],
-  summary: `<p>This ongoing project will be a full stack hotel booking application.</p>`,
+  technologies: ['React', 'TypeScript', 'Javascript', 'PostgreSQL', 'Node', 'Express', 'HTML5', 'CSS / SCSS', 'React Router', 'Redux Toolkit', 'Npm', 'GitHub', 'Git'],
+  summary: `<p>This project is a full stack hotel booking application.</p>`,
   full: `<p>This project contains a slider with an autoplay feature (until an arrow is clicked), a room filters section and a checkout section.</p>
-  <p>Future plans are to store data in a backend and expand this project with more complex features.</p>`,
+  <p>The data from the room filters page is extracted from the PostgreSQL database and displayed on the page with the assistance of tools such as Node and Express.</p>`,
   sources: {
     demo: 'https://northleaf-lodge-live-quentin.herokuapp.com/',
     github: 'https://github.com/quentinneal/northleaf-lodge'
@@ -53,7 +53,7 @@ export const projectsList = [{
     image12: infinity3840
   },
   title: 'Infinity',
-  technologies: ['4K', 'HTML5', 'CSS / SCSS', 'Javascript', 'React', 'NASA Image and Video REST API', 'Intersection Observer API', 'Npm', 'GitHub', 'Git'],
+  technologies: ['React', 'Javascript', 'HTML5', 'CSS / SCSS', 'NASA Image and Video REST API', 'Intersection Observer API', 'Npm', 'GitHub', 'Git'],
   summary: `<p>NOTE: API is rate limited.</p>
   <p>This project is an infinite scrolling website with search features. The images are fetched from the NASA 
   Image and Video Library REST API. The infinite scrolling mechanism uses the Intersection Observer API.</p>`,
@@ -86,7 +86,7 @@ export const projectsList = [{
     image12: portfolio3840
   },
   title: 'Portfolio',
-  technologies: ['4K', 'HTML5', 'CSS / SCSS', 'Javascript', 'React', 'Formspree', 'Font Awesome', 'Node', 'Npm', 'GitHub', 'Git'],
+  technologies: ['React', 'Javascript', 'HTML5', 'CSS / SCSS', 'Formspree', 'Font Awesome', 'Node', 'Npm', 'GitHub', 'Git'],
   summary: `<p>This project is my personal portfolio website. I built this website to show my ability to build a website on my own, push boundaries with my CSS skills and to show my projects. </p>`,
   full: `<p>The features of this single page website include smooth scrolling, a preloading spinner, keyboard 
   accessibility, local & session storage, dark mode, a read more feature, mobile fixed navigation, image 
@@ -118,7 +118,7 @@ export const projectsList = [{
       image12: crwnClothing3840
     },
     title: 'Crwn-Clothing',
-    technologies: ['1080p', 'HTML5', 'CSS3 / SCSS', 'Javascript', 'React', 'React Router', 'Stripe', 'Redux technologies', 'Firebase', 'Reselect', 'Compression', 'Lodash.memoise', 'Node', 'Npm', 'GitHub', 'Git'],
+    technologies: ['HTML5', 'CSS3 / SCSS', 'Javascript', 'React', 'React Router', 'Stripe', 'Redux technologies', 'Firebase', 'Reselect', 'Compression', 'Lodash.memoise', 'Node', 'Npm', 'GitHub', 'Git'],
     summary: `<p>This project is a modified e-commerce website based on a course called Complete React Developer by Andrei Neagoie and Yihua Zhang.</p>
     <p>The website's aesthetics was redesigned by me with CSS and JavaScript as I worked on this project in order to brush up on my coding skills.</p>`,
     full: `<p>This project contains features such as sign in/out, sign up, routing, CRUD operations, cart functionality, checkout with stripe and more.</p>

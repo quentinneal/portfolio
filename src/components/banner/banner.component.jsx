@@ -62,7 +62,7 @@ const Banner = ({ bannerLoaded, homeRef, projectsScroll }) => (
             <span>Quentin Neal</span>
           </h1>
           <div className="description">
-            <span>Frontend Engineer</span>
+            <span>Software Developer</span>
           </div>
           <div className="icons">
             <a className="github-icon icon" href="https://github.com/quentinneal" target="_blank" rel="noopener noreferrer" title="GitHub">

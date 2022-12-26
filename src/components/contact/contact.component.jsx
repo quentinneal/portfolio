@@ -56,11 +56,11 @@ const Contact = ({contactRef, menuBottom}) => {
       <div className="contact-details" data-aos="fade-left">
         <p className="contact-description">Thank you for visiting my website! Feel free to contact me using the contact form or LinkedIn.</p>
         <div className="contact-icons">
-          <a className="github-icon icon" href="https://github.com/quentinneal" target="_blank" rel="noopener noreferrer" title="GitHub">
-            <FontAwesomeIcon className="fa-fw" icon={faGithub} />
-          </a>
           <a className="linkedin-icon icon" href="https://www.linkedin.com/in/quentinneal/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
             <FontAwesomeIcon className="fa-fw" icon={faLinkedin} />
+          </a>
+          <a className="github-icon icon" href="https://github.com/quentinneal" target="_blank" rel="noopener noreferrer" title="GitHub">
+            <FontAwesomeIcon className="fa-fw" icon={faGithub} />
           </a>
         </div>
       </div>
